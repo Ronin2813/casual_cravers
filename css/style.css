@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    background: #f6f6f6;   
+}
+/* -----------------Header------------------ */
+.header{
+    display: grid;
+    grid-template-columns: 39% 10% 5% 5% 10% 5%;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    background: #ff6300;
+}
+
+.logo,.signup,.login,.contact,.cart{
+    /* background: #f00; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px; 
+    padding-top: 10px;
+
+}
+.signup, .login, .contact{
+    font-weight: bold;
+}
+.menu{
+    font-size: 35px;
+    /* text-align: center; */
+    padding-top: 5px !important;
+}
+.cart{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 5px !important;
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+/* -----------------Header------------------ */
+/* -----------------Product Slider------------------ */
+
+/* -----------------Product Slider------------------ */
