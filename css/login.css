@@ -1,3 +1,17 @@
+@keyframes login{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 body{
     background: #f6f6f6;
 }
@@ -5,15 +19,61 @@ body{
 .container{
     display: flex;
     width: 50%;
-    padding:20px;
+    margin-left:25%;
+    margin-top: 15%;
+    box-shadow: 50px 50px 100px 20px #b3b3b3;
     
 }
 .details{
-    padding: 20px;
+    padding:50px;
     background:#fff;
+    font-size: 16px;
+    width:100%;
 }
 .welcome{
     color: #fff;
     padding: 20px;
     background: #ff6300;
+}
+.welcome p{
+    text-align: center;
+}
+
+.head{
+    font-size: 20px;
+    font-weight: bold;
+}
+.details label, .details input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details input{
+    width: 99%;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background: #f6f6f6;
+}
+
+.details input::placeholder{
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+#btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background: #ff6300;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+#btn:hover{
+    scale: 1.05;
+    background: #c44e00;
 }
