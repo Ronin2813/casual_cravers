@@ -1,0 +1,19 @@
+body{
+    background: #f6f6f6;
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    padding:20px;
+    
+}
+.details{
+    padding: 20px;
+    background:#fff;
+}
+.welcome{
+    color: #fff;
+    padding: 20px;
+    background: #ff6300;
+}
