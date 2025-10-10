@@ -5,6 +5,6 @@ $name = "root";
 $pass = "";
 $db = "casual_cravers";
 
-$con = new mysqli( $host, $name, $pass,$db); 
+$con = @new mysqli( $host, $name, $pass,$db); 
 
 ?>

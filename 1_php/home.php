@@ -3,5 +3,5 @@
  if ($con -> connect_error) {
     header("location: confail.php");
     exit();}
- echo" this is  a test";
+ echo" this is the home page";
 ?>

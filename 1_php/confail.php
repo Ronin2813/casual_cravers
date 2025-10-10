@@ -1,12 +1,19 @@
+<?php  
+
+include("config.php");
+    if (!$con -> connect_error) {
+        header("location: home.php");
+        exit();}
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connection Failed</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-        /* Reset and basic styles */
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>      
         * {
             margin: 0;
             padding: 0;
@@ -55,21 +62,6 @@
             font-size: 16px;
             color: #555;
             margin-bottom: 30px;
-        }
-
-        .btn {
-            display: inline-block;
-            text-decoration: none;
-            padding: 12px 30px;
-            background-color: #ff6300;
-            color: #fff;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #e55b00;
         }
 
         @media (max-width: 500px) {
