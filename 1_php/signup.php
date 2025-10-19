@@ -15,12 +15,12 @@
         <div class="title"><p>Sign Up</p></div>
         <form id="signup" action="useradd.php" method="post">
             <div class="lables">
-                <lablel for="fname" >Fullname</lablel><br>
-                <lablel for="email">Email</lablel><br>
-                <lablel for="phone">Number</lablel><br>
-                <lablel for="address">Address</lablel><br>
-                <lablel for="pass">Password</lablel><br>
-                <lablel for="cpass">Confirm Password</lablel>
+                <label for="fname" >Fullname</lablel><br>
+                <label for="email">Email</lablel><br>
+                <label for="phone">Number</lablel><br>
+                <label for="address">Address</lablel><br>
+                <label for="pass">Password</lablel><br>
+                <label for="cpass">Confirm Password</lablel>
             </div>
             <div class="inputs">
                 <input type="text" id="fname" name="fname" placeholder="Please Enter Your Name" autofocus>
@@ -31,6 +31,7 @@
                 <input type="password" id="cpass" name="cpass" placeholder="Please Confirm Your Password" >
                 <input type="submit" value="Sign up">
             </div>
+            <p>Already have a account? <a href="login.php">Login </a>here</p>
         </form>
     </div>
     
